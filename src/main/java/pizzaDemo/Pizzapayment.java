@@ -22,11 +22,11 @@ public class Pizzapayment {
         pizzasettled.publishAfterCommit();
 
         // hystrix 테스트용
-        try {
-            Thread.currentThread().sleep((long) (400 + Math.random() * 220));
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.currentThread().sleep((long) (400 + Math.random() * 220));
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
     }
 
